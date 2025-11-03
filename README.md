@@ -1,14 +1,14 @@
-#SCT_ML_1
+## SCT_ML_1
 
-#House Price Prediction using Linear Regression
+## House Price Prediction using Linear Regression
 
-##Project Overview
+## Project Overview
 
 This project predicts house prices based on key property features such as the number of bedrooms, bathrooms, and total square footage.
 Using a Linear Regression model, it explores how each of these features influences the overall price of a home.
 
 
-##Objectives
+## Objectives
 
 * Clean and preprocess housing data
 * Handle missing values effectively
@@ -17,7 +17,7 @@ Using a Linear Regression model, it explores how each of these features influenc
 * Interpret coefficients to understand feature importance
 
 
-##Tools & Libraries Used
+## Tools & Libraries Used
 
 * Python
 * pandas
@@ -27,7 +27,7 @@ Using a Linear Regression model, it explores how each of these features influenc
 * scikit-learn
 
 
-##Data Preprocessing
+## Data Preprocessing
 
 * Checked for missing values and filled them using the median for numeric features and mode for categorical features.
 * Selected key variables for training:
@@ -38,7 +38,7 @@ Using a Linear Regression model, it explores how each of these features influenc
 * Target variable: price
 
 
-##Model Training and Evaluation
+## Model Training and Evaluation
 
 The dataset was split into training (80%) and testing (20%) sets.
 A Linear Regression model was trained on the training data and evaluated using Mean Squared Error (MSE) and R² Score.
@@ -55,26 +55,26 @@ Model Coefficients:
 * baths → +119,735.90
 * Intercept → 111,259.57
 
-##Insights
+## Insights
 
 * The model explains about **65.6% of the variation in house prices.
 * Square footage has the strongest positive effect on price.
 * Bathrooms also increase price, while bedrooms show a small negative coefficient, possibly due to correlation with other variables.
 * The Actual vs Predicted plot shows a mostly linear trend, indicating decent model performance.
 
-##Visualizations
+## Visualizations
 
 * Pairplot showing relationships between size, beds, baths, and price.
 * Scatter plot comparing Actual vs Predicted Prices, visualizing model accuracy.
 
-##How to Run the Project
+## How to Run the Project
 
 1. Clone this repository to your local machine.
 2. Navigate to the project folder.
 3. Install the required Python libraries.
 4. Open and run the Jupyter Notebook to view the analysis and results.
 
-##Future Work
+## Future Work
 
 * Include additional features like location or ZIP code for higher accuracy.
 * Convert lot size units for better consistency.
